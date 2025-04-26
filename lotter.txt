@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int lotteryNumber;
+    int userGuess;
+
+    // Seed the random number generator with the current time
+    srand(time(NULL));
+
+    // Generate a random lottery number between 1 and 10
+    lotteryNumber = rand() % 10 + 1;
+
+    // Get the user's guess
+    printf("Guess the lottery number (between 1 and 10): ");
+    scanf("%d", &userGuess);
+
+    // Check if the user's guess is correct
+    if (userGuess == lotteryNumber) {
+        printf("Congratulations! You've won the lottery!\n");
+    } else {
+        printf("Sorry, the correct lottery number was %d. Better luck next time!\n", lotteryNumber);
+    }
+
+    return 0;
+}

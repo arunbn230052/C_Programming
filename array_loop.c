@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+void main()
+{
+
+char name []={"My name is Arun Prasad Patel"}; 
+
+int i;
+
+for(i=0;i<=22;i++)
+{
+printf("%c", name[i]);
+}
+
+ }

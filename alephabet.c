@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+void main()
+{
+  char string[]={"my name is Arun Prasad Patel"};
+  int a=0, e=0, i=0, o=0, u=0;
+  
+  for(int i=0; i<sizeof(string); i++)
+  {
+	if(string[i]=='A'|| string[i]=='a')
+		a++;
+	
+	else if(string[i]=='E'||string[i]=='e')
+		e++;
+	
+	else if(string[i]=='I'|| string[i]=='i')
+		i++;
+	
+	else if(string[i]=='O' || string[i]=='o')
+		o++;
+	
+	
+	else if(string[i]== 'U' || string[i]=='u')
+		u++;
+	
+  }
+  
+  printf("The number of 'a' is: %d\n", a);
+  printf("The number of 'e' is:%d\n", e);
+  printf("The number of 'i' is:%d\n", i);
+  printf("The number of 'o' is:%d\n", o);
+  printf("The number of 'u' is:%d\n", u); 
+
+}

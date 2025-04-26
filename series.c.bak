@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+double a=0,k,l;
+int n;
+printf("enter your any number:\n");
+scanf("%d",&n);	
+for(int i=1; i<=n; i++){
+int j= pow(i,2);
+a=1.0/j+a;
+}
+k=6*(a);
+l=pow(k,1.0/2);
+
+printf("the sum is %lf",l);
+}

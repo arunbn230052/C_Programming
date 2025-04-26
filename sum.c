@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float sum=0;
+	int n;
+	printf("Enter the number");
+	scanf("%d",&n);
+	for(int i=1;i<=3;i++)
+	{
+	sum=sum+((float)n/pow(n,i+1));
+	}
+	printf("The sum is %f\n",sum);
+   
+}
+		

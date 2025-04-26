@@ -1,0 +1,32 @@
+#include <stdio.h>
+    void main(){
+     float kg; 
+	 printf("Enter weight: \n");
+	 scanf("%d",&kg);
+
+	
+    /*int a = 50 , b = 23;
+    int rem = 50 % 23;
+    printf("%d \n", rem);*/
+	
+	/*int div = 100/24;
+	int rem = 100%24;
+	printf(" remender is : %d \n", div);
+	printf(" division is : %.2f \n", rem);*/
+	
+	/*int a = 66, b = 27;
+	a = a+1;
+	a = 27,
+	a*=66;
+	a/=66;
+	a-=66;
+	a=66;
+	printf(" The value of a is : %d", a);
+	printf("are a and b is equal: %d \n", 'a'=='b');
+	printf("are a and b is equal: %d \n", 'a'=='a');
+	printf("is a less than b?: %d \n", a<b);
+	printf("is a more than b?: %d \n", a <= b);
+	printf("is a less than b?: %d \n", 'a' != 'a');*/
+	
+
+}
